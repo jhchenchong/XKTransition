@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7E2AD1120E23A8600BEC1AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD1020E23A8600BEC1AB /* AppDelegate.m */; };
+		B7E2AD1420E23A8600BEC1AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD1320E23A8600BEC1AB /* ViewController.m */; };
+		B7E2AD1720E23A8600BEC1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E2AD1520E23A8600BEC1AB /* Main.storyboard */; };
+		B7E2AD1920E23A8800BEC1AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E2AD1820E23A8800BEC1AB /* Assets.xcassets */; };
+		B7E2AD1C20E23A8800BEC1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E2AD1A20E23A8800BEC1AB /* LaunchScreen.storyboard */; };
+		B7E2AD1F20E23A8800BEC1AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD1E20E23A8800BEC1AB /* main.m */; };
+		B7E2AD2820E23AE300BEC1AB /* XKTransitionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD2720E23AE300BEC1AB /* XKTransitionConfiguration.m */; };
+		B7E2AD2B20E23BDE00BEC1AB /* XKAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD2A20E23BDE00BEC1AB /* XKAnimatedTransitioning.m */; };
+		B7E2AD2E20E23DC100BEC1AB /* XKPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD2D20E23DC100BEC1AB /* XKPresentationController.m */; };
+		B7E2AD3120E2402700BEC1AB /* XKTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD3020E2402700BEC1AB /* XKTransitioningDelegate.m */; };
+		B7E2AD3420E2412700BEC1AB /* XKDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD3320E2412700BEC1AB /* XKDrivenInteractiveTransition.m */; };
+		B7E2AD3720E242AF00BEC1AB /* UIViewController+XKTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E2AD3620E242AF00BEC1AB /* UIViewController+XKTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7E2AD0C20E23A8600BEC1AB /* XKTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E2AD0F20E23A8600BEC1AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7E2AD1020E23A8600BEC1AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7E2AD1220E23A8600BEC1AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7E2AD1320E23A8600BEC1AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7E2AD1620E23A8600BEC1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E2AD1820E23A8800BEC1AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E2AD1B20E23A8800BEC1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E2AD1D20E23A8800BEC1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E2AD1E20E23A8800BEC1AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7E2AD2620E23AE300BEC1AB /* XKTransitionConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKTransitionConfiguration.h; sourceTree = "<group>"; };
+		B7E2AD2720E23AE300BEC1AB /* XKTransitionConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKTransitionConfiguration.m; sourceTree = "<group>"; };
+		B7E2AD2920E23BDE00BEC1AB /* XKAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKAnimatedTransitioning.h; sourceTree = "<group>"; };
+		B7E2AD2A20E23BDE00BEC1AB /* XKAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKAnimatedTransitioning.m; sourceTree = "<group>"; };
+		B7E2AD2C20E23DC100BEC1AB /* XKPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKPresentationController.h; sourceTree = "<group>"; };
+		B7E2AD2D20E23DC100BEC1AB /* XKPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKPresentationController.m; sourceTree = "<group>"; };
+		B7E2AD2F20E2402700BEC1AB /* XKTransitioningDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKTransitioningDelegate.h; sourceTree = "<group>"; };
+		B7E2AD3020E2402700BEC1AB /* XKTransitioningDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKTransitioningDelegate.m; sourceTree = "<group>"; };
+		B7E2AD3220E2412700BEC1AB /* XKDrivenInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		B7E2AD3320E2412700BEC1AB /* XKDrivenInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		B7E2AD3520E242AF00BEC1AB /* UIViewController+XKTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XKTransition.h"; sourceTree = "<group>"; };
+		B7E2AD3620E242AF00BEC1AB /* UIViewController+XKTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XKTransition.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E2AD0920E23A8600BEC1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7E2AD0320E23A8600BEC1AB = {
+			isa = PBXGroup;
+			children = (
+				B7E2AD0E20E23A8600BEC1AB /* XKTransition */,
+				B7E2AD0D20E23A8600BEC1AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E2AD0D20E23A8600BEC1AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2AD0C20E23A8600BEC1AB /* XKTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E2AD0E20E23A8600BEC1AB /* XKTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2AD2520E23AA100BEC1AB /* XKTransition */,
+				B7E2AD0F20E23A8600BEC1AB /* AppDelegate.h */,
+				B7E2AD1020E23A8600BEC1AB /* AppDelegate.m */,
+				B7E2AD1220E23A8600BEC1AB /* ViewController.h */,
+				B7E2AD1320E23A8600BEC1AB /* ViewController.m */,
+				B7E2AD1520E23A8600BEC1AB /* Main.storyboard */,
+				B7E2AD1820E23A8800BEC1AB /* Assets.xcassets */,
+				B7E2AD1A20E23A8800BEC1AB /* LaunchScreen.storyboard */,
+				B7E2AD1D20E23A8800BEC1AB /* Info.plist */,
+				B7E2AD1E20E23A8800BEC1AB /* main.m */,
+			);
+			path = XKTransition;
+			sourceTree = "<group>";
+		};
+		B7E2AD2520E23AA100BEC1AB /* XKTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2AD3520E242AF00BEC1AB /* UIViewController+XKTransition.h */,
+				B7E2AD3620E242AF00BEC1AB /* UIViewController+XKTransition.m */,
+				B7E2AD2620E23AE300BEC1AB /* XKTransitionConfiguration.h */,
+				B7E2AD2720E23AE300BEC1AB /* XKTransitionConfiguration.m */,
+				B7E2AD2920E23BDE00BEC1AB /* XKAnimatedTransitioning.h */,
+				B7E2AD2A20E23BDE00BEC1AB /* XKAnimatedTransitioning.m */,
+				B7E2AD3220E2412700BEC1AB /* XKDrivenInteractiveTransition.h */,
+				B7E2AD3320E2412700BEC1AB /* XKDrivenInteractiveTransition.m */,
+				B7E2AD2C20E23DC100BEC1AB /* XKPresentationController.h */,
+				B7E2AD2D20E23DC100BEC1AB /* XKPresentationController.m */,
+				B7E2AD2F20E2402700BEC1AB /* XKTransitioningDelegate.h */,
+				B7E2AD3020E2402700BEC1AB /* XKTransitioningDelegate.m */,
+			);
+			path = XKTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E2AD0B20E23A8600BEC1AB /* XKTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E2AD2220E23A8800BEC1AB /* Build configuration list for PBXNativeTarget "XKTransition" */;
+			buildPhases = (
+				B7E2AD0820E23A8600BEC1AB /* Sources */,
+				B7E2AD0920E23A8600BEC1AB /* Frameworks */,
+				B7E2AD0A20E23A8600BEC1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKTransition;
+			productName = XKTransition;
+			productReference = B7E2AD0C20E23A8600BEC1AB /* XKTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E2AD0420E23A8600BEC1AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "浪漫恋星空";
+				TargetAttributes = {
+					B7E2AD0B20E23A8600BEC1AB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B7E2AD0720E23A8600BEC1AB /* Build configuration list for PBXProject "XKTransition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E2AD0320E23A8600BEC1AB;
+			productRefGroup = B7E2AD0D20E23A8600BEC1AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E2AD0B20E23A8600BEC1AB /* XKTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E2AD0A20E23A8600BEC1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E2AD1C20E23A8800BEC1AB /* LaunchScreen.storyboard in Resources */,
+				B7E2AD1920E23A8800BEC1AB /* Assets.xcassets in Resources */,
+				B7E2AD1720E23A8600BEC1AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E2AD0820E23A8600BEC1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E2AD3120E2402700BEC1AB /* XKTransitioningDelegate.m in Sources */,
+				B7E2AD2E20E23DC100BEC1AB /* XKPresentationController.m in Sources */,
+				B7E2AD1420E23A8600BEC1AB /* ViewController.m in Sources */,
+				B7E2AD2820E23AE300BEC1AB /* XKTransitionConfiguration.m in Sources */,
+				B7E2AD1F20E23A8800BEC1AB /* main.m in Sources */,
+				B7E2AD2B20E23BDE00BEC1AB /* XKAnimatedTransitioning.m in Sources */,
+				B7E2AD3720E242AF00BEC1AB /* UIViewController+XKTransition.m in Sources */,
+				B7E2AD3420E2412700BEC1AB /* XKDrivenInteractiveTransition.m in Sources */,
+				B7E2AD1120E23A8600BEC1AB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7E2AD1520E23A8600BEC1AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E2AD1620E23A8600BEC1AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E2AD1A20E23A8800BEC1AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E2AD1B20E23A8800BEC1AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E2AD2020E23A8800BEC1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7E2AD2120E23A8800BEC1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E2AD2320E23A8800BEC1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XKTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.XKTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7E2AD2420E23A8800BEC1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XKTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.XKTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E2AD0720E23A8600BEC1AB /* Build configuration list for PBXProject "XKTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E2AD2020E23A8800BEC1AB /* Debug */,
+				B7E2AD2120E23A8800BEC1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E2AD2220E23A8800BEC1AB /* Build configuration list for PBXNativeTarget "XKTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E2AD2320E23A8800BEC1AB /* Debug */,
+				B7E2AD2420E23A8800BEC1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E2AD0420E23A8600BEC1AB /* Project object */;
+}
